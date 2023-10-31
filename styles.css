@@ -1,0 +1,29 @@
+.header{
+          color: #E7E7E7;
+          text-align: center;
+          font-family: impact, sans-serif;
+          background-color: #0E0E0E;
+  }
+  button {
+              padding: 10px 20px; /* Add padding to the button */
+              font-size: 16px; /* Adjust font size */
+          }
+          ul {
+              list-style: none; /* Remove default list styles */
+              padding: 0;
+          }
+          li {
+              margin: 5px 0;
+          }
+}
+.slider {
+          width: 100%;
+          overflow: hidden;
+      }
+      .slides {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+      }
+      .slide {
+          width: 100%;
+      }

@@ -1,9 +1,60 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title> Chibi Critique </title>
-</head>
-<body>
-<h1>Hello World!</h1>
+<title>Chibi Critique Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+<body style="background-color:#36454F">
+  <div class="header" >
+
+  <h1>ChibiCritique</h1>
+  <p>My personal review website!</p>
+</div>
+<ul>
+  <li> <a href="index.html">home </a> </li>
+  <li>about</li>
+</ul>
+
+<h2 style="text-align:center"> Welcome! This is Chibi Critique. Here to
+  deliver some recommendations for animes to watch
+  in the form of 5 anime lists! </h2>
+  <div class="slider">
+       <div class="slides">
+           <div class="slide"><img src="shigure-goddess.gif" style="width: 100vw; height: auto;" alt="Image 1"></div>
+           <div class="slide"><img src="anime.png" style="width: 100vw; height: auto;" alt="Image 2"></div>
+           <div class="slide"><img src="anime2.jpg" style="width: 100vw; height: auto;" alt="Image 3"></div>
+           <!-- Add more images as needed -->
+       </div>
+   </div>
+
+   <script>
+       const slides = document.querySelector('.slides');
+       const slideItems = document.querySelectorAll('.slide');
+       let slideIndex = 0;
+
+       function nextSlide() {
+           slideIndex = (slideIndex + 1) % slideItems.length;
+           slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+       }
+
+       // Change slide every 3 seconds (adjust the interval as needed)
+       setInterval(nextSlide, 3000);
+   </script>
+
+  <ul>
+    <a href="action.html"><button> <li> action </li> </button> </a>
+    <a href="comedy.html"><button> <li> comedy </li> </button> </a>
+    <a href="fantasy.html"><button> <li> fantasy </li> </button> </a>
+    <a href="romance.html"><button> <li> romance </li> </button> </a>
+  </ul>
+  <iframe width=80vw height=80vw src="https://www.youtube.com/watch?v=EAvihRR9S70">
+</iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+</iframe>
+
+
 </body>
 </html>
