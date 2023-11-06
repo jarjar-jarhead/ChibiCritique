@@ -1,24 +1,59 @@
+
+button {
+            padding: 20px 20px; /* Add padding to the button */
+            font-size: 16px; /* Adjust font size */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            align:center;
+            margin: 40px 20px 20px 20px;
+            text-shadow: 1px 1px white;
+        }
+body{
+          overflow-x : hidden;
+          background-color: #36454F;
+          margin-left: 100;
+          margin-right: 100;
+          }
 .header{
           color: #E7E7E7;
           text-align: center;
-          font-family: impact, sans-serif;
-          background-color: #0E0E0E;
+          font-family: Khand,sans-serif;
+          background-color: black;
+          background-size: cover;
   }
-  button {
-              padding: 10px 20px; /* Add padding to the button */
-              font-size: 16px; /* Adjust font size */
+  .background-overlay {
+
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 30%;
+              background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for opacity */
+              z-index: -1;
           }
-          ul {
-              list-style: none; /* Remove default list styles */
-              padding: 0;
-          }
-          li {
-              margin: 5px 0;
-          }
+.intro {
+  text-align:center;
+  font-family: Geneva, Verdana, sans-serif;
+  background-position: center;
+  width:100%;
+  height:auto;
+  color: #E7E7E7;
+  text-align: center;
+  background-color: black;
+  background-size: cover;
 }
 .slider {
           width: 100%;
-          overflow: hidden;
+          height: 90%;
+          position:center;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          z-index: -1;
+
+
       }
       .slides {
           display: flex;
@@ -27,3 +62,40 @@
       .slide {
           width: 100%;
       }
+
+.button1 {
+  background-image:url('actiongif.gif');
+  background-position:center;
+  background-size: cover;
+  width: 120px;
+  height: 100px;
+  padding: 100px 120px; /* Add padding to the button */
+  font-size: 16px;
+}
+.button2 {
+  background-image:url('anyameme.gif');
+  background-position:center;
+  background-size: cover;
+  width: 120px;
+  height: 100px;
+  padding: 100px 120px; /* Add padding to the button */
+  font-size: 16px;
+}
+.button3 {
+  background-image:url('bestgirl.gif');
+  background-position:center;
+  background-size: cover;
+  width: 120px;
+  height: 100px;
+  padding: 100px 120px; /* Add padding to the button */
+  font-size: 16px;
+}
+.button4 {
+  background-image:url('romancee.gif');
+  background-position:center;
+  background-size: cover;
+  width: 120px;
+  height: 100px;
+  padding: 100px 120px; /* Add padding to the button */
+  font-size: 16px;
+}
