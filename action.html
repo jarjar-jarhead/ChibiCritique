@@ -1,37 +1,188 @@
 <html lang="en">
 <head>
-<title>Action Genre</title>
+<title>Chibi Critique Action Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 
   </head>
-<body style="background-color:#36454F">
-  <div class="header" >
+<body>
+  <img src="no bg.png" style="width:13vw; height:auto; position:absolute; left: 15%;">
+  <img src="no bg.png" style="width:13vw; height:auto; position:absolute; right: 15%;">
+  <div class="header">
+    <div class="background-overlay">
 
-  <h1>ChibiCritique</h1>
-  <p>My personal review website!</p>
+      <h1>ChibiCritique</h1>
+  <p style="text-align:center;">My personal anime review website!</p>
+  <hr size="5" style="color:white;">
+
+       <a href="index.html"> <button> home </button> </a>
+      <button> about </button>
+
+  </div>
 </div>
-<ul>
-  <li> <a href="index.html">home </a> </li>
-  <li>about</li>
-</ul>
+
+<div class="intro">
+  <h2> Here are 3 animes with the genre of comedy! These are some of what I consider as a good anime. Feel free to watch what you fancy! </h2>
+</div>
+  <div class="slider" style="position:auto;">
+       <div class="slides">
+           <div class="slide"><img src="konosuba.jpeg" style="width: 85vw; height: auto;" alt="Image 1"></div>
+           <div class="slide"><img src="yourname.jpg" style="width: 85vw; height: auto;" alt="Image 2"></div>
+           <div class="slide"><img src="anime2.jpg" style="width: 85vw; height: auto;" alt="Image 3"></div>
+           <!-- Add more images as needed -->
+       </div>
+   </div>
+
+   <script>
+       const slides = document.querySelector('.slides');
+       const slideItems = document.querySelectorAll('.slide');
+       let slideIndex = 0;
+
+       function nextSlide() {
+           slideIndex = (slideIndex + 1) % slideItems.length;
+           slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+       }
+
+       // Change slide every 3 seconds (adjust the interval as needed)
+       setInterval(nextSlide, 3000);
+   </script>
+
+ <ul class="uler">
+   <a href="action.html">
+     <button class="button1">
+       <li> ACTION </li>
+     </button>
+   </a>
+   <a href="comedy.html">
+     <button class="button2">
+        <li> COMEDY </li>
+      </button>
+    </a>
+   <a href="fantasy.html">
+     <button class="button3">
+        <li> FANTASY </li>
+      </button>
+   </a>
+   <a href="romance.html">
+     <button class="button4">
+        <li> ROMANCE </li>
+     </button>
+   </a>
+ </ul>
+
+<div class="demon">
 
 
-<h2 style="text-align:center">  5 ACTION ANIME RECOMMENDATIONS BASED ON CHIBI CRITIQUE'S OPINION!</h2>
+<h3> Kimetsu no Yaeba (Demon Slayer) </h3>
+<img src="anime2.jpg" style="float:right; width: 35%; height:auto; padding: 10px">
+<p> Title: Demon Slayer (Kimetsu no Yaiba)
+  <br>
+Adapted From: Manga written by Koyoharu Gotouge
+<br>
+Production Studio: Ufotable
+<br>
+Debut: April 2019
+<br>
+Setting: Taisho-era Japan
+<br>
 
-  <ul>
-    <li>comedy</li>
-    <li>fantasy</li>
-    <li>romance</li>
-  </ul>
+Plot Summary: Follows Tanjiro Kamado's journey as a demon slayer after his family's
+massacre and his sister's transformation into a demon. He joins the Demon Slayer Corps,
+ aiming to cure his sister and avenge his family, while uncovering the secrets of demons.
+ <br>
 
+Episode Duration: Approximately 22-24 minutes per episode
+Season 1 Air Dates: April to September 2019 (26 episodes)
+Movie Sequel: "Demon Slayer: Kimetsu no Yaiba the Movie: Mugen Train" released in October 2020 in Japan.
+<br>
 
-<ol>
-  <li> dororo </li>
-  <li> jojo </li>
-  <li> kimetsu </li>
-  <li> attack on titan </li>
-  <li> my hero academia </li>
+Highlights: Renowned for stunning animation, compelling storytelling, and character development, the
+ series has gained immense popularity, becoming a significant cultural phenomenon in the anime world.
+
+</p>
+</div>
+
+<div>
+<h3> Boku no Hero Academia (My Hero Academia) </h3>
+<img src="myhero.jpg" style="float:left; width: 18%; height:auto; padding: 10px">
+<p>Title: My Hero Academia (Boku no Hero Academia)
+  <br>
+Adapted From: Manga written by Kohei Horikoshi
+<br>
+Production Studio: BONES
+<br>
+
+Plot Summary: In a world where almost everyone has superpowers known as "Quirks,"
+a quirkless boy named Izuku Midoriya idolizes heroes and dreams of becoming one. All Might,
+ the greatest hero, shares his powers with Izuku, granting him a quirk and admission to U.A.
+ High School, a prestigious institution for aspiring heroes. Izuku navigates challenges, forming
+ friendships, and combating villains while learning to control his newfound abilities and striving
+  to become the greatest hero.
+<br>
+Debut: April 2016
+Setting: A society where quirks are common, focusing on U.A. High School and the hero society
+Episode Duration: Approximately 23-24 minutes per episode
+<br>
+Air Dates: Season 1: April to June 2016 (13 episodes)
+<br>
+Season 2: April to September 2017 (25 episodes)
+<br>
+Season 3: April to September 2018 (25 episodes)
+<br>
+Season 4: October 2019 to April 2020 (25 episodes)
+<br>
+Season 5: March to September 2021 (25 episodes)
+<br>
+
+Highlights: Recognized for its character development, action-packed sequences, and exploration
+of ethical dilemmas, "My Hero Academia" has gained widespread acclaim, appealing to audiences
+for its dynamic storytelling and the growth of its protagonist within a vibrant hero-centric world.
+</p>
+</div>
+
+<h3> Jojo's Bizarre Adventure (JoJo no Kimyou na Bouken) </h3>
+<img src="jojo.jpg" style="float:right; width: 30%; height:auto; padding: 10px">
+
+<p>
+Title: Jojo's Bizarre Adventure (JoJo no Kimyou na Bouken)
+<br>
+Adapted From: Manga written by Hirohiko Araki
+<br>
+Production Studio: David Production
+<br>
+Plot Summary: Spanning multiple generations of the Joestar family, each part follows
+a different member known as "Jojo" as they face off against various supernatural foes,
+often involving mystical artifacts called Stand. These Stands are psychic manifestations that
+ grant their users unique abilities. The series explores themes of honor, family, and the battle
+ between good and evil across different timelines and settings.
+<br>
+Debut: The manga began in 1987 and has multiple story arcs.
+<br>
+Setting: The story spans different time periods and locations, each focusing on
+a different member of the Joestar family.
+<br>
+Episode Duration: Approximately 20-25 minutes per episode, varying across different arcs.
+<br>
+Air Dates: The anime adaptation is divided into various seasons, each corresponding
+to different story arcs. Some of the seasons and their airing dates include:
+<br>
+"Jojo's Bizarre Adventure: Phantom Blood" (Part 1) in 2012
+<br>
+"Jojo's Bizarre Adventure: Battle Tendency" (Part 2) in 2012-2013
+<br>
+"Jojo's Bizarre Adventure: Stardust Crusaders" (Part 3) in 2014-2015
+<br>
+"Jojo's Bizarre Adventure: Diamond is Unbreakable" (Part 4) in 2016
+<br>
+"Jojo's Bizarre Adventure: Golden Wind" (Part 5) in 2018-2019
+<br>
+"Jojo's Bizarre Adventure: Stone Ocean" (Part 6) announced for future release
+<br>
+Highlights: Known for its unique art style, flamboyant characters, and creative
+ storytelling, "Jojo's Bizarre Adventure" has earned a dedicated fan base and critical
+ acclaim for its inventive approach to action and the supernatural.
+</p>
+
 </body>
 </html>
