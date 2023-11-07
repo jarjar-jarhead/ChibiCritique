@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+<title>Chibi Critique Action Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+<body>
+  <img src="no bg.png" style="width:13vw; height:auto; position:absolute; left: 15%;">
+  <img src="no bg.png" style="width:13vw; height:auto; position:absolute; right: 15%;">
+  <div class="header">
+    <div class="background-overlay">
+
+      <h1>ChibiCritique</h1>
+  <p style="text-align:center;">My personal anime review website!</p>
+  <hr size="5" style="color:white;">
+
+       <a href="index.html"> <button> home </button> </a>
+      <button> about </button>
+
+  </div>
+</div>
+
+<div class="intro">
+  <h2> Here are 3 animes with the genre of comedy! These are some of what I consider as a good anime. Feel free to watch what you fancy! </h2>
+</div>
+  <div class="slider" style="position:auto;">
+       <div class="slides">
+           <div class="slide"><img src="konosuba.jpeg" style="width: 85vw; height: auto;" alt="Image 1"></div>
+           <div class="slide"><img src="yourname.jpg" style="width: 85vw; height: auto;" alt="Image 2"></div>
+           <div class="slide"><img src="anime2.jpg" style="width: 85vw; height: auto;" alt="Image 3"></div>
+           <!-- Add more images as needed -->
+       </div>
+   </div>
+
+   <script>
+       const slides = document.querySelector('.slides');
+       const slideItems = document.querySelectorAll('.slide');
+       let slideIndex = 0;
+
+       function nextSlide() {
+           slideIndex = (slideIndex + 1) % slideItems.length;
+           slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+       }
+
+       // Change slide every 3 seconds (adjust the interval as needed)
+       setInterval(nextSlide, 3000);
+   </script>
+
+ <ul class="uler">
+   <a href="action.html">
+     <button class="button1">
+       <li> ACTION </li>
+     </button>
+   </a>
+   <a href="comedy.html">
+     <button class="button2">
+        <li> COMEDY </li>
+      </button>
+    </a>
+   <a href="fantasy.html">
+     <button class="button3">
+        <li> FANTASY </li>
+      </button>
+   </a>
+   <a href="romance.html">
+     <button class="button4">
+        <li> ROMANCE </li>
+     </button>
+   </a>
+ </ul>
+
+<div class="demon">
+
+
+<h3> Spy x Family </h3>
+<img src="spy.png" style="float:right; width: 35%; height:auto; padding: 10px">
+<p> Title: Spy x Family
+<br>
+Adapted From: Manga series written and illustrated by Tatsuya Endo
+<br>
+Production Studio: (Note: As of my last knowledge update in January 2022, there hadn't
+ been an anime adaptation announced. If there's been an update post-2022, I might not have
+ that information. Please verify from current sources.)
+<br>
+Plot Summary: In a world of political intrigue and espionage, a master spy named Twilight
+is tasked with a critical mission: to get close to a high-ranking official by any means
+necessary. To maintain his cover, he decides to form a fake family, which includes an
+adopted daughter and a wife. However, his 'daughter' happens to be a telepathic girl,
+and his 'wife' is an assassin who hates men. As this unlikely family tries to coexist,
+navigating their daily lives while hiding their true identities, unforeseen bonds and
+genuine affection start to form, creating both comedic and heartwarming moments.
+<br>
+Debut: The manga serialization began in March 2019.
+<br>
+Setting: The story is set in a world reminiscent of Cold War-era Europe, focusing on
+espionage and political tensions.
+<br>
+Chapters: As of my last update in January 2022, the manga comprises several volumes
+and ongoing chapters.
+<br>
+Highlights: "Spy x Family" has gained praise for its unique blend of espionage, comedy,
+ and endearing family dynamics. Its captivating narrative, lovable characters, and the blend
+  of spy thriller elements with family-oriented humor have contributed to its popularity and
+  positive reception among readers.
+
+</p>
+</div>
+
+<div>
+<h3> Kono Subarashii Sekai ni Shukufuku wo! (KonoSuba: God's Blessing on This Wonderful World!) </h3>
+<img src="konosuba.jpeg" style="float:left; width: 18%; height:auto; padding: 10px">
+<p>Title: KonoSuba: God's Blessing on This Wonderful World! (Kono Subarashii Sekai ni Shukufuku wo!)
+<br>
+Adapted From: Light novel series written by Natsume Akatsuki
+<br>
+Production Studio: Studio Deen
+<br>
+Plot Summary: The story follows Kazuma Sato, an otaku who dies in an absurd
+ accident and is offered a chance to be reincarnated in a fantasy world by the
+  goddess Aqua. He forms an unusual party with Aqua, the useless goddess; Megumin,
+   an archwizard obsessed with explosion magic; and Darkness, a clumsy crusader with
+    a masochistic streak. Together, they embark on comically disastrous adventures
+     filled with mishaps, facing off against bizarre enemies while navigating their
+      dysfunctional group dynamics.
+<br>
+Debut: The light novel series began in October 2013, while the anime adaptation
+ premiered in January 2016.
+<br>
+Setting: The story takes place in a fantasy world with RPG elements, filled with
+ monsters, magic, and various adventures.
+<br>
+Episode Duration: Each episode runs for approximately 24 minutes.
+<br>
+Air Dates: The anime has two seasons, with the first season airing from January
+to March 2016 and the second season from January to March 2017.
+<br>
+Highlights: Known for its satirical take on the isekai (different world) genre,
+"KonoSuba" is celebrated for its humor, parodying fantasy tropes, and the quirky
+interactions among the main characters. The series gained popularity for its hilarious
+and absurd adventures, unique characters, and the humor derived from their ineptitudes
+ and eccentricities.
+</p>
+</div>
+
+<h3> Nichijou (My Ordinary Life) </h3>
+<img src="nichijou.jpg" style="float:right; width: 30%; height:auto; padding: 10px">
+
+<p>
+  Title: Nichijou (My Ordinary Life)
+<br>
+  Adapted From: Manga series written and illustrated by Keiichi Arawi
+<br>
+  Production Studio: Kyoto Animation
+<br>
+  Plot Summary: "Nichijou" portrays the daily lives of a group of high
+   school girls—Mio Naganohara, Yuuko Aioi, and Mai Minakami—alongside other
+    eccentric characters, including a robot girl, a talking cat, and a principal
+     who suplexes a deer. The series showcases seemingly mundane situations spiraling
+      into bizarre and absurdly humorous events, often involving exaggerated reactions,
+       slapstick comedy, and surreal occurrences.
+<br>
+  Debut: The manga series started in 2006, while the anime adaptation aired in 2011.
+<br>
+  Setting: The story takes place in a typical Japanese town and the high
+  school the main characters attend.
+<br>
+  Episode Duration: Each episode runs for approximately 23-24 minutes.
+<br>
+  Air Dates: The anime series aired from April to September 2011, comprising 26 episodes.
+<br>
+  Highlights: "Nichijou" stands out for its unique and random humor, blending
+  surreal comedy with exaggerated reactions and fantastic animation. The series
+   is beloved for its offbeat and unpredictable humor, often juxtaposing the normality
+    of everyday life with absurd, extraordinary, and unexpected events. The whimsical
+     and unconventional nature of the show has garnered a dedicated fanbase appreciative
+      of its unconventional storytelling and charmingly bizarre characters.
+</p>
+
+</body>
+</html>
