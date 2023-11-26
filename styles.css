@@ -20,6 +20,9 @@ body{
           margin-left: 100;
           margin-right: 100;
           }
+            #resume {
+            height: 100vh; 
+        }
 .header{
           color: #E7E7E7;
           text-align: center;
