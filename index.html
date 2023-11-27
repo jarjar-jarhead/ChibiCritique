@@ -21,8 +21,8 @@
 
        <a href="index.html"> <button> home </button> </a>
       <a href="about.html"> <button> about </button> </a>
-        <button onclick="scrollToSection('resume')">resume</button>
-    
+        <button onclick="scrollToSection('section1')"> resume </button>
+
   </div>
 </div>
 <hr>
@@ -82,16 +82,24 @@
       src="https://www.youtube.com/embed/fQ6PRbh-ntM" style="height:500px;width:1000px;">
     </iframe>
 </center>
-      <div id="resume">
-<button onclick="myFunction()">Curriculum Vitae</button>
+      <div id="section1">
 
-<p id="demo"></p>
+                <button onclick="displayPDF()">Open Resume</button>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
-      </div>
+                    <script>
+                        function displayPDF(Resumempdf) {
+                           
+                            const pdfPath = 'Resume.pdf';
+
+                            // Open the PDF in a new window or tab
+                            window.open(pdfPath, '');
+                        }
+                    </script>
+      <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
